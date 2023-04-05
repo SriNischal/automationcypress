@@ -1,0 +1,15 @@
+{
+    "url" : "/webtables",
+    "header" : "Web Tables",
+    "popuptext" : "Registration Form",
+    "firstname" : "Sri",
+    "lastname" : "Nischal",
+    "email" : "sri@gmail.com",
+    "age" : "25",
+    "salary" : "20000",
+    "department" : "IT",
+    "details" : "SriNischal25sri@gmail.com20000IT ",
+    "editedage" : "26",
+    "editedsalary" : "30000",
+    "editeddetails" : "SriNischal26sri@gmail.com30000IT "
+}

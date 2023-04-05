@@ -1,0 +1,7 @@
+{
+    "url" : "/links",
+    "links" : "Links",
+    "createapi" : "Link has responded with staus 201 and status text Created",
+    "nocontentapi" : "Link has responded with staus 204 and status text No Content",
+    "linkurl" : "https://demoqa.com/links"
+}

@@ -1,0 +1,90 @@
+{
+  "stats": {
+    "suites": 0,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2023-03-30T07:11:32.709Z",
+    "end": "2023-03-30T07:11:40.876Z",
+    "duration": 8167,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "4114bad5-1762-4a8b-8107-31fced7e9f1c",
+      "title": "",
+      "fullFile": "cypress\\e2e\\DemoQA\\Element_uploaddownload.cy.js",
+      "file": "cypress\\e2e\\DemoQA\\Element_uploaddownload.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [
+        {
+          "title": "this is sample test script",
+          "fullTitle": "this is sample test script",
+          "timedOut": null,
+          "duration": 7982,
+          "state": "failed",
+          "speed": null,
+          "pass": false,
+          "fail": true,
+          "pending": false,
+          "context": "{\n  \"title\": \"cypress-mochawesome-reporter-screenshots\",\n  \"value\": [\n    [\n      {\n        \"title\": \"Failed screenshot\",\n        \"value\": \"\\\\Element_uploaddownload.cy.js\\\\this is sample test script (failed).png\"\n      }\n    ]\n  ]\n}",
+          "code": "cy.visit(\"upload-download\");\n_elementuploaddownload.default.clickuploaddownloadbtn();\n//elementuploaddownload.uploaddownloadbtnheadervalidation(this.data.uploaddownload);\n_elementuploaddownload.default.clickdownloadbtn();\n_elementuploaddownload.default.clickchoosefilebtn();",
+          "err": {
+            "message": "CypressError: `cy.readFile()` must be passed a non-empty string as its 1st argument. You passed: `undefined`.\n\nhttps://on.cypress.io/readfile",
+            "estack": "CypressError: `cy.readFile()` must be passed a non-empty string as its 1st argument. You passed: `undefined`.\n\nhttps://on.cypress.io/readfile\n    at Context.readFile (https://demoqa.com/__cypress/runner/cypress_runner.js:136742:78)\n    at wrapped (https://demoqa.com/__cypress/runner/cypress_runner.js:151174:43)\nFrom Your Spec Code:\n    at elementuplaoddownloadPage.clickdownloadbtn (webpack:///./cypress/pages/elementuploaddownload.js:16:11)\n    at Context.eval (webpack:///./cypress/e2e/DemoQA/Element_uploaddownload.cy.js:16:26)",
+            "diff": null
+          },
+          "uuid": "957b566d-bb26-45b3-aaf5-f61fdefa4e98",
+          "parentUUID": "4114bad5-1762-4a8b-8107-31fced7e9f1c",
+          "isHook": false,
+          "skipped": false
+        }
+      ],
+      "suites": [],
+      "passes": [],
+      "failures": [
+        "957b566d-bb26-45b3-aaf5-f61fdefa4e98"
+      ],
+      "pending": [],
+      "skipped": [],
+      "duration": 7982,
+      "root": true,
+      "rootEmpty": false,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress\\reports\\html\\.jsons"
+      },
+      "version": "6.2.0"
+    }
+  }
+}

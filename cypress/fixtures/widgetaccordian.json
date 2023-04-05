@@ -1,0 +1,10 @@
+{
+    "url" : "/accordian",
+    "accordian": "Accordian",
+    "firstheader": "What is Lorem Ipsum?",
+    "firstcontent": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+    "secondheader" : "Where does it come from?",
+    "secondcontent" : "Contrary to popular belief, Lorem Ipsum is not simply random text",
+    "thirdheader" : "Why do we use it?",
+    "thirdcontent" : "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+}

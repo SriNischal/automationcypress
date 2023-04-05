@@ -1,0 +1,7 @@
+{
+    "url" : "/select-menu",
+    "header" : "Select Menu",
+    "value" : 7,
+    "text" : "red",
+    "cars" : [0,1,2,3]
+}

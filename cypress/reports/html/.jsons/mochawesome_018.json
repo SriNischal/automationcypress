@@ -1,0 +1,90 @@
+{
+  "stats": {
+    "suites": 0,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2023-03-30T07:05:03.739Z",
+    "end": "2023-03-30T07:05:12.037Z",
+    "duration": 8298,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "14a5593f-19bf-48ea-b21d-fd6fc22b95a0",
+      "title": "",
+      "fullFile": "cypress\\e2e\\DemoQA\\Element_uploaddownload.cy.js",
+      "file": "cypress\\e2e\\DemoQA\\Element_uploaddownload.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [
+        {
+          "title": "this is sample test script",
+          "fullTitle": "this is sample test script",
+          "timedOut": null,
+          "duration": 8068,
+          "state": "failed",
+          "speed": null,
+          "pass": false,
+          "fail": true,
+          "pending": false,
+          "context": "{\n  \"title\": \"cypress-mochawesome-reporter-screenshots\",\n  \"value\": [\n    [\n      {\n        \"title\": \"Failed screenshot\",\n        \"value\": \"\\\\Element_uploaddownload.cy.js\\\\this is sample test script (failed).png\"\n      }\n    ]\n  ]\n}",
+          "code": "cy.visit(\"upload-download\");\n_elementuploaddownload.default.clickuploaddownloadbtn();\n//elementuploaddownload.uploaddownloadbtnheadervalidation();\n_elementuploaddownload.default.clickdownloadbtn();\n_elementuploaddownload.default.clickchoosefilebtn();",
+          "err": {
+            "message": "CypressError: `cy.task('isFileExist')` failed with the following error:\n\nThe task 'isFileExist' was not handled in the setupNodeEvents method. The following tasks are registered: compareSnapshotsPlugin, copyScreenshot, deleteScreenshot, generateReport, deleteReport\n\nFix this in your setupNodeEvents method here:\nC:\\Users\\srinischal.thiparani\\Desktop\\Cypress automation\\Practice\\cypress.config.js\n\nhttps://on.cypress.io/api/task",
+            "estack": "CypressError: `cy.task('isFileExist')` failed with the following error:\n\nThe task 'isFileExist' was not handled in the setupNodeEvents method. The following tasks are registered: compareSnapshotsPlugin, copyScreenshot, deleteScreenshot, generateReport, deleteReport\n\nFix this in your setupNodeEvents method here:\nC:\\Users\\srinischal.thiparani\\Desktop\\Cypress automation\\Practice\\cypress.config.js\n\nhttps://on.cypress.io/api/task\n    at <unknown> (https://demoqa.com/__cypress/runner/cypress_runner.js:141549:80)\n    at tryCatcher (https://demoqa.com/__cypress/runner/cypress_runner.js:8914:23)\n    at Promise._settlePromiseFromHandler (https://demoqa.com/__cypress/runner/cypress_runner.js:6849:31)\n    at Promise._settlePromise (https://demoqa.com/__cypress/runner/cypress_runner.js:6906:18)\n    at Promise._settlePromise0 (https://demoqa.com/__cypress/runner/cypress_runner.js:6951:10)\n    at Promise._settlePromises (https://demoqa.com/__cypress/runner/cypress_runner.js:7027:18)\n    at _drainQueueStep (https://demoqa.com/__cypress/runner/cypress_runner.js:3621:12)\n    at _drainQueue (https://demoqa.com/__cypress/runner/cypress_runner.js:3614:9)\n    at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://demoqa.com/__cypress/runner/cypress_runner.js:3630:5)\n    at Async.drainQueues (https://demoqa.com/__cypress/runner/cypress_runner.js:3500:14)\nFrom Your Spec Code:\n    at resolveValue (webpack:///./node_modules/cy-verify-downloads/src/index.js:56:0)\n    at Context.eval (webpack:///./node_modules/cy-verify-downloads/src/index.js:62:0)",
+            "diff": null
+          },
+          "uuid": "959a032f-c056-4247-b89f-deac71573a15",
+          "parentUUID": "14a5593f-19bf-48ea-b21d-fd6fc22b95a0",
+          "isHook": false,
+          "skipped": false
+        }
+      ],
+      "suites": [],
+      "passes": [],
+      "failures": [
+        "959a032f-c056-4247-b89f-deac71573a15"
+      ],
+      "pending": [],
+      "skipped": [],
+      "duration": 8068,
+      "root": true,
+      "rootEmpty": false,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress\\reports\\html\\.jsons"
+      },
+      "version": "6.2.0"
+    }
+  }
+}

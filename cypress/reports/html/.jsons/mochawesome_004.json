@@ -1,0 +1,90 @@
+{
+  "stats": {
+    "suites": 0,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2023-03-30T06:32:34.780Z",
+    "end": "2023-03-30T06:32:46.734Z",
+    "duration": 11954,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "7005065e-1019-4262-a574-5d61857a45e6",
+      "title": "",
+      "fullFile": "cypress\\e2e\\DemoQA\\Element_uploaddownload.cy.js",
+      "file": "cypress\\e2e\\DemoQA\\Element_uploaddownload.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [
+        {
+          "title": "this is sample test script",
+          "fullTitle": "this is sample test script",
+          "timedOut": null,
+          "duration": 11777,
+          "state": "failed",
+          "speed": null,
+          "pass": false,
+          "fail": true,
+          "pending": false,
+          "context": "{\n  \"title\": \"cypress-mochawesome-reporter-screenshots\",\n  \"value\": [\n    [\n      {\n        \"title\": \"Failed screenshot\",\n        \"value\": \"\\\\Element_uploaddownload.cy.js\\\\this is sample test script (failed).png\"\n      }\n    ]\n  ]\n}",
+          "code": "cy.visit(\"upload-download\");\n_elementuploaddownload.default.clickuploaddownloadbtn();\n_elementuploaddownload.default.uploaddownloadbtnheadervalidation();\n_elementuploaddownload.default.clickdownloadbtn();\n_elementuploaddownload.default.clickchoosefilebtn();",
+          "err": {
+            "message": "AssertionError: Timed out retrying after 4000ms: expected '<div.main-header>' to have text undefined, but the text was 'Upload and Download'",
+            "estack": "AssertionError: Timed out retrying after 4000ms: expected '<div.main-header>' to have text undefined, but the text was 'Upload and Download'\n    at elementuplaoddownloadPage.uploaddownloadbtnheadervalidation (webpack:///./cypress/pages/elementuploaddownload.js:12:48)\n    at Context.eval (webpack:///./cypress/e2e/DemoQA/Element_uploaddownload.cy.js:15:26)",
+            "diff": null
+          },
+          "uuid": "4c4731ca-d4a9-4480-9a7b-7066a8078402",
+          "parentUUID": "7005065e-1019-4262-a574-5d61857a45e6",
+          "isHook": false,
+          "skipped": false
+        }
+      ],
+      "suites": [],
+      "passes": [],
+      "failures": [
+        "4c4731ca-d4a9-4480-9a7b-7066a8078402"
+      ],
+      "pending": [],
+      "skipped": [],
+      "duration": 11777,
+      "root": true,
+      "rootEmpty": false,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress\\reports\\html\\.jsons"
+      },
+      "version": "6.2.0"
+    }
+  }
+}

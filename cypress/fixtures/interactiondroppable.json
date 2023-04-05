@@ -1,0 +1,8 @@
+{
+    "url" : "/droppable",
+    "header" : "Droppable",
+    "color" : "rgb(70, 130, 180)",
+    "beforecolor" : "rgba(0, 0, 0, 0)",
+    "text" : "Dropped!",
+    "beforetext" : "Drop here"
+}

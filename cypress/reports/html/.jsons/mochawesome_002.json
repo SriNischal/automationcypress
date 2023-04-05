@@ -1,0 +1,90 @@
+{
+  "stats": {
+    "suites": 0,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2023-03-29T13:28:46.124Z",
+    "end": "2023-03-29T13:28:54.931Z",
+    "duration": 8807,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "21f2ba1d-c3dc-487a-99e2-82eca12219b5",
+      "title": "",
+      "fullFile": "cypress\\e2e\\DemoQA\\Element_brokenlinkimages.cy.js",
+      "file": "cypress\\e2e\\DemoQA\\Element_brokenlinkimages.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [
+        {
+          "title": "this is sample test script",
+          "fullTitle": "this is sample test script",
+          "timedOut": null,
+          "duration": 8731,
+          "state": "failed",
+          "speed": null,
+          "pass": false,
+          "fail": true,
+          "pending": false,
+          "context": "{\n  \"title\": \"cypress-mochawesome-reporter-screenshots\",\n  \"value\": [\n    [\n      {\n        \"title\": \"Failed screenshot\",\n        \"value\": \"\\\\Element_brokenlinkimages.cy.js\\\\this is sample test script (failed).png\"\n      }\n    ]\n  ]\n}",
+          "code": "cy.visit(\"/broken\");\ncy.compareSnapshot(\":nth-child(2) > [src='/images/Toolsqa.jpg']\");",
+          "err": {
+            "message": "Error: Path contains invalid characters: C:\\Users\\srinischal.thiparani\\Desktop\\Cypress automation\\Practice\\cypress-visual-screenshots\\comparison\\Element_brokenlinkimages.cy-:nth-child(2) > [src='\\images",
+            "estack": "Error: Path contains invalid characters: C:\\Users\\srinischal.thiparani\\Desktop\\Cypress automation\\Practice\\cypress-visual-screenshots\\comparison\\Element_brokenlinkimages.cy-:nth-child(2) > [src='\\images\n    at checkPath (C:\\Users\\srinischal.thiparani\\Desktop\\Cypress automation\\Practice\\node_modules\\fs-extra\\lib\\mkdirs\\make-dir.js:20:21)\n    at module.exports.makeDirSync (C:\\Users\\srinischal.thiparani\\Desktop\\Cypress automation\\Practice\\node_modules\\fs-extra\\lib\\mkdirs\\make-dir.js:95:3)\n    at Object.moveSync (C:\\Users\\srinischal.thiparani\\Desktop\\Cypress automation\\Practice\\node_modules\\fs-extra\\lib\\move-sync\\move-sync.js:16:3)\n    at renameAndMoveFile (C:\\Users\\srinischal.thiparani\\Desktop\\Cypress automation\\Practice\\node_modules\\cypress-image-diff-js\\dist\\utils.js:64:23)\n    at Object.handler (C:\\Users\\srinischal.thiparani\\Desktop\\Cypress automation\\Practice\\node_modules\\cypress-image-diff-js\\dist\\plugin.js:187:36)\n    at invoke (C:\\Users\\srinischal.thiparani\\AppData\\Local\\Cypress\\Cache\\12.8.1\\Cypress\\resources\\app\\node_modules\\@packages\\server\\lib\\plugins\\child\\run_plugins.js:183:18)\n    at <unknown> (C:\\Users\\srinischal.thiparani\\AppData\\Local\\Cypress\\Cache\\12.8.1\\Cypress\\resources\\app\\node_modules\\@packages\\server\\lib\\plugins\\util.js:59:14)\n    at tryCatcher (C:\\Users\\srinischal.thiparani\\AppData\\Local\\Cypress\\Cache\\12.8.1\\Cypress\\resources\\app\\node_modules\\bluebird\\js\\release\\util.js:16:23)\n    at Promise.attempt.Promise.try (C:\\Users\\srinischal.thiparani\\AppData\\Local\\Cypress\\Cache\\12.8.1\\Cypress\\resources\\app\\node_modules\\bluebird\\js\\release\\method.js:39:29)\n    at Object.wrapChildPromise (C:\\Users\\srinischal.thiparani\\AppData\\Local\\Cypress\\Cache\\12.8.1\\Cypress\\resources\\app\\node_modules\\@packages\\server\\lib\\plugins\\util.js:58:23)\n    at RunPlugins.execute (C:\\Users\\srinischal.thiparani\\AppData\\Local\\Cypress\\Cache\\12.8.1\\Cypress\\resources\\app\\node_modules\\@packages\\server\\lib\\plugins\\child\\run_plugins.js:164:21)\n    at EventEmitter.<anonymous> (C:\\Users\\srinischal.thiparani\\AppData\\Local\\Cypress\\Cache\\12.8.1\\Cypress\\resources\\app\\node_modules\\@packages\\server\\lib\\plugins\\child\\run_plugins.js:56:12)\n    at EventEmitter.emit (node:events:512:28)\n    at process.<anonymous> (C:\\Users\\srinischal.thiparani\\AppData\\Local\\Cypress\\Cache\\12.8.1\\Cypress\\resources\\app\\node_modules\\@packages\\server\\lib\\plugins\\util.js:33:22)\n    at process.emit (node:events:512:28)\n    at emit (node:internal/child_process:944:14)\n    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)",
+            "diff": null
+          },
+          "uuid": "4f1c1195-9dc8-4aaf-b5c3-6b24dfa93756",
+          "parentUUID": "21f2ba1d-c3dc-487a-99e2-82eca12219b5",
+          "isHook": false,
+          "skipped": false
+        }
+      ],
+      "suites": [],
+      "passes": [],
+      "failures": [
+        "4f1c1195-9dc8-4aaf-b5c3-6b24dfa93756"
+      ],
+      "pending": [],
+      "skipped": [],
+      "duration": 8731,
+      "root": true,
+      "rootEmpty": false,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress\\reports\\html\\.jsons"
+      },
+      "version": "6.2.0"
+    }
+  }
+}

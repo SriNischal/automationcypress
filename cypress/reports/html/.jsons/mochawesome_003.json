@@ -1,0 +1,90 @@
+{
+  "stats": {
+    "suites": 0,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2023-03-30T06:08:30.198Z",
+    "end": "2023-03-30T06:08:46.656Z",
+    "duration": 16458,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "2003df7b-40a7-454f-a1ee-6d0c2639014e",
+      "title": "",
+      "fullFile": "cypress\\e2e\\DemoQA\\Element_links.cy.js",
+      "file": "cypress\\e2e\\DemoQA\\Element_links.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [
+        {
+          "title": "this is sample test script",
+          "fullTitle": "this is sample test script",
+          "timedOut": null,
+          "duration": 16087,
+          "state": "failed",
+          "speed": null,
+          "pass": false,
+          "fail": true,
+          "pending": false,
+          "context": "{\n  \"title\": \"cypress-mochawesome-reporter-screenshots\",\n  \"value\": [\n    [\n      {\n        \"title\": \"Failed screenshot\",\n        \"value\": \"\\\\Element_links.cy.js\\\\this is sample test script (failed).png\"\n      }\n    ]\n  ]\n}",
+          "code": "cy.visit(\"/links\");\n_elementlinksPage.default.clicklinkbuton();\n//elementlinksPage.linkheadervalidation(this.data.links);\n_elementlinksPage.default.clicksamplelink();\ncy.go('back');\n//elementlinksPage.urlvalidation(this.data.url);\n_elementlinksPage.default.clickdynamiclink();\n_elementlinksPage.default.urlvalidation(this.data.url);\n_elementlinksPage.default.clickcreateapi();\n//elementlinksPage.apiresponsevaludation(this.data.createapi);\n_elementlinksPage.default.clicknocontentapi();\n//elementlinksPage.apiresponsevaludation(this.data.nocontentapi);",
+          "err": {
+            "message": "AssertionError: Timed out retrying after 4000ms: expected 'https://demoqa.com/links' to equal undefined",
+            "estack": "AssertionError: Timed out retrying after 4000ms: expected 'https://demoqa.com/links' to equal undefined\n    at elementlinksPage.urlvalidation (webpack:///./cypress/pages/elementlinksPage.js:33:17)\n    at Context.eval (webpack:///./cypress/e2e/DemoQA/Element_links.cy.js:20:21)",
+            "diff": null
+          },
+          "uuid": "d4d4cb65-09ca-4f17-965d-b3fb86d3ae86",
+          "parentUUID": "2003df7b-40a7-454f-a1ee-6d0c2639014e",
+          "isHook": false,
+          "skipped": false
+        }
+      ],
+      "suites": [],
+      "passes": [],
+      "failures": [
+        "d4d4cb65-09ca-4f17-965d-b3fb86d3ae86"
+      ],
+      "pending": [],
+      "skipped": [],
+      "duration": 16087,
+      "root": true,
+      "rootEmpty": false,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress\\reports\\html\\.jsons"
+      },
+      "version": "6.2.0"
+    }
+  }
+}

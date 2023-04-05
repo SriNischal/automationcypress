@@ -1,0 +1,8 @@
+{
+    "url" : "/tool-tips",
+    "header" : "Tool Tips",
+    "buttontooltipmessage" : "You hovered over the Button",
+    "texttooltipmessage" : "You hovered over the text field",
+    "contrarytooltipmessage" : "You hovered over the Contrary",
+    "datetooltipmessage" : "You hovered over the 1.10.32"
+}

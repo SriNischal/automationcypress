@@ -1,0 +1,7 @@
+{
+    "url" : "/buttons",
+    "button" : "Buttons",
+    "dblclick" : "You have done a double click",
+    "rightclick" : "You have done a right click",
+    "clickme" : "You have done a dynamic click"
+}

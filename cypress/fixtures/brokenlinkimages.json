@@ -1,0 +1,8 @@
+{
+    "url" : "/broken",
+    "brokenimagelink" : "Broken Links - Images",
+    "validimagepath" : "./cypress-visual-screenshots/baseline/validimage",
+    "invalidimagepath" : "./cypress-visual-screenshots/baseline/invalidimage",
+    "validlink" : "http://demoqa.com",
+    "invalidlink" : "http://the-internet.herokuapp.com/status_codes/500"
+}

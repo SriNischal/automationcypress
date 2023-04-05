@@ -1,0 +1,8 @@
+{
+    "url" : "/sortable",
+    "header" : "Sortable",
+    "beforelistsort" : "OneTwoThreeFourFiveSix",
+    "afterlistsort" : "TwoThreeFourFiveSixOne",
+    "beforegridsort" : "OneTwoThreeFourFiveSixSevenEightNine",
+    "aftergridsort" : "NineTwoThreeFourFiveSixSevenEightOne"
+}

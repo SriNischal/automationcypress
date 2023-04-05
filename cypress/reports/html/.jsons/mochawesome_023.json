@@ -1,0 +1,90 @@
+{
+  "stats": {
+    "suites": 0,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2023-03-30T07:13:09.568Z",
+    "end": "2023-03-30T07:13:10.149Z",
+    "duration": 581,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "0cb58f2f-6f77-4900-8788-0aa56795409c",
+      "title": "",
+      "fullFile": "cypress\\e2e\\DemoQA\\Element_uploaddownload.cy.js",
+      "file": "cypress\\e2e\\DemoQA\\Element_uploaddownload.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [
+        {
+          "title": "this is sample test script",
+          "fullTitle": "this is sample test script",
+          "timedOut": null,
+          "duration": 453,
+          "state": "failed",
+          "speed": null,
+          "pass": false,
+          "fail": true,
+          "pending": false,
+          "context": "{\n  \"title\": \"cypress-mochawesome-reporter-screenshots\",\n  \"value\": [\n    [\n      {\n        \"title\": \"Failed screenshot\",\n        \"value\": \"\\\\Element_uploaddownload.cy.js\\\\this is sample test script (failed).png\"\n      }\n    ]\n  ]\n}",
+          "code": "cy.visit(\"upload-download\");\n_elementuploaddownload.default.clickuploaddownloadbtn();\n//elementuploaddownload.uploaddownloadbtnheadervalidation(this.data.uploaddownload);\n_elementuploaddownload.default.clickdownloadbtn();\n_elementuploaddownload.default.clickchoosefilebtn();",
+          "err": {
+            "message": "TypeError: Cannot read properties of undefined (reading 'readFile')",
+            "estack": "TypeError: Cannot read properties of undefined (reading 'readFile')\n    at elementuplaoddownloadPage.clickdownloadbtn (webpack:///./cypress/pages/elementuploaddownload.js:16:16)\n    at Context.eval (webpack:///./cypress/e2e/DemoQA/Element_uploaddownload.cy.js:16:26)",
+            "diff": null
+          },
+          "uuid": "d841856a-2f4d-431f-b26c-897521ca7a04",
+          "parentUUID": "0cb58f2f-6f77-4900-8788-0aa56795409c",
+          "isHook": false,
+          "skipped": false
+        }
+      ],
+      "suites": [],
+      "passes": [],
+      "failures": [
+        "d841856a-2f4d-431f-b26c-897521ca7a04"
+      ],
+      "pending": [],
+      "skipped": [],
+      "duration": 453,
+      "root": true,
+      "rootEmpty": false,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress\\reports\\html\\.jsons"
+      },
+      "version": "6.2.0"
+    }
+  }
+}

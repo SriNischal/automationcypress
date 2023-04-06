@@ -37,7 +37,6 @@ class elementwebtablePage{
         this.elements.userdetails().should('contain.text',details);
     }
     edituser(editedage,editedsalary,details){
-        cy.wait(3000);
         this.elements.editbtn().click();
         this.elements.age().clear().type(editedage);
         this.elements.salary().clear().type(editedsalary);
